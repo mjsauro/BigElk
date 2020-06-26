@@ -1,0 +1,58 @@
+.rotate {
+	animation: rotation 1s infinite linear alternate;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(-45deg);
+	}
+
+	to {
+		transform: rotate(45deg);
+	}
+}
+
+.header-image {
+	position: relative;
+}
+
+.img-on-top-bass {
+	position: absolute;
+	z-index: 99;
+	left: 35%;
+	bottom: 83%;
+	max-width: 25%;
+}
+
+.img-on-top-drummer {
+	position: absolute;
+	z-index: 99;
+	left: 30%;
+	bottom: 75%;
+	max-width: 20%;
+}
+
+.img-on-top-acoustic-guitar {
+	position: absolute;
+	z-index: 99;
+	left: 40%;
+	bottom: 83%;
+	max-width: 20%;
+
+}
+
+.img-on-top-singer {
+	position: absolute;
+	z-index: 99;
+	left: 35%;
+	bottom: 78%;
+	max-width: 25%;
+}
+
+.img-on-top-electric-guitar {
+	position: absolute;
+	z-index: 99;
+	left: 22%;
+	bottom: 83%;
+	max-width: 25%;
+}
