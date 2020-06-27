@@ -12,47 +12,103 @@
 	}
 }
 
-.header-image {
+.bg-bass {
+	background-image: url("images/bass-2.png");
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
 	position: relative;
 }
 
-.img-on-top-bass {
-	position: absolute;
-	z-index: 99;
-	left: 35%;
-	bottom: 83%;
-	max-width: 25%;
+.bg-drummer {
+	background-image: url("images/drummer-2.png");
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
 }
 
-.img-on-top-drummer {
-	position: absolute;
-	z-index: 99;
-	left: 30%;
-	bottom: 75%;
-	max-width: 20%;
+.bg-acoustic-guitar {
+	background-image: url("images/acoustic-guitar-2.png");
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
 }
 
-.img-on-top-acoustic-guitar {
+.bg-singer {
+	background-image: url("images/singer-2.png");
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.bg-electric-guitar {
+	background-image: url("images/electric-guitar-2.png");
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.bg-bass>img {
+	width: 25%;
+	/* border: 5px solid #0f0f10; */
 	position: absolute;
-	z-index: 99;
+	top: -20%;
+	left: 42%;
+	transform: translate(0, -50%);
+}
+
+.bg-drummer>img {
+	width: 25%;
+	/* border: 5px solid #0f0f10; */
+	position: absolute;
+	top: 0%;
 	left: 40%;
-	bottom: 83%;
-	max-width: 20%;
-
+	transform: translate(0, -50%);
 }
 
-.img-on-top-singer {
+.bg-acoustic-guitar>img {
+	width: 25%;
+	/* border: 5px solid #0f0f10; */
 	position: absolute;
-	z-index: 99;
+	top: -25%;
 	left: 35%;
-	bottom: 78%;
-	max-width: 25%;
+	transform: translate(0, -50%);
 }
 
-.img-on-top-electric-guitar {
+.bg-singer>img {
+	width: 25%;
+	/* border: 5px solid #0f0f10; */
 	position: absolute;
-	z-index: 99;
-	left: 22%;
-	bottom: 83%;
-	max-width: 25%;
+	top: -10%;
+	left: 35%;
+	transform: translate(0, -50%);
+}
+
+.bg-electric-guitar>img {
+	width: 25%;
+	/* border: 5px solid #0f0f10; */
+	position: absolute;
+	top: -25%;
+	left: 35%;
+	transform: translate(0, -50%);
+}
+
+.audio-container {
+	display: flex;
+	justify-content: center;
+	align-items: center
 }
